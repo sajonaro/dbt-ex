@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dbt-tutorial"
+version = "0.1.0"
+description = "simple introduction into dbt library"
+authors = ["sajonaro <alex.kunich@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt-core = "^1.9.1"
+dbt-postgres = "^1.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
