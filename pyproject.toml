@@ -8,8 +8,7 @@ authors = ["sajonaro <alex.kunich@gmail.com>"]
 python = "^3.10"
 dbt-core = "^1.9.1"
 dbt-postgres = "^1.9.0"
-
-[tool.poetry.dev-dependencies]
+dbt-duckdb = "^1.9.1"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
